@@ -1,4 +1,4 @@
-##SQL Training Notes:
+# SQL Training Notes:
 
 To get started, refer to the instructions in the [Repo's Read Me](https://github.com/akgilbert/training/blob/master/README.md)
 
