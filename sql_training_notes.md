@@ -13,4 +13,4 @@ For additional SQL learning resources, I'd reocmmend the following:
 
 ---
 
-Please add an issue to the repo or reach out to ann@marionstreetstrategies.com with any questions on this training!
+Please add an issue to the repo or reach out to anna@marionstreetstrategies.com with any questions on this training!
