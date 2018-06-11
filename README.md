@@ -7,7 +7,7 @@ https://github.com/akgilbert/training/blob/master/Excel%20101%20Brownbag.xlsx
 
 
 
-![Excel Module 1](https://imgur.com/a/TSlN8g2"Excel Module 1")
+![Excel Module 1](https://ibb.co/n0Fyco "Excel Module 1")
 
 
 ## SQL Training
