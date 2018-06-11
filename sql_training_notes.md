@@ -1,4 +1,4 @@
-#SQL Training Notes:
+##SQL Training Notes:
 
 To get started, refer to the instructions in the [Repo's Read Me](https://github.com/akgilbert/training/blob/master/README.md)
 
@@ -6,8 +6,8 @@ This training was put together thanks to [SQLFiddle](http://sqlfiddle.com/#!9/6f
 
 For additional SQL learning resources, I'd reocmmend the following:
 
-* [w3 schools](https://www.w3schools.com/sql/)
-* [w3 schools' query runner](https://www.w3schools.com/sql/trysql.asp?filename=trysql_op_in)
+* [W3 schools](https://www.w3schools.com/sql/)
+* [W3 schools' query runner](https://www.w3schools.com/sql/trysql.asp?filename=trysql_op_in)
 * [Stackoverflow](https://stackoverflow.com/questions)
 * [Google](https://www.google.com/doodles/world-cup-2014-14)
 
