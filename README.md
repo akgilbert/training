@@ -36,4 +36,4 @@ https://github.com/akgilbert/training/blob/master/code_final.sql
 
 ---
 
-Please add an issue to the repo or reach out to ann@marionstreetstrategies.com with any questions on this training!
+Please add an issue to the repo or reach out to anna@marionstreetstrategies.com with any questions on this training!
