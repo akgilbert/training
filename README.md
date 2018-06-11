@@ -5,6 +5,11 @@
 * To get started with the Excel Brownbag 101, download the Excel Spreadsheet and following the instructions on each tab:
 https://github.com/akgilbert/training/blob/master/Excel%20101%20Brownbag.xlsx
 
+
+
+![Excel Module 1](https://imgur.com/a/TSlN8g2"Excel Module 1")
+
+
 ## SQL Training
 
 * To get started with the SQL Training, go to [SQLFiddle.com](SQLFiddle.com)
@@ -17,4 +22,4 @@ https://github.com/akgilbert/training/blob/master/code_final.sql
 
 ---
 
-Please comment below or reach out to ann@marionstreetstrategies.com with any questions on this training!
+Please add an issue to the repo or reach out to ann@marionstreetstrategies.com with any questions on this training!
