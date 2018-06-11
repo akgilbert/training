@@ -7,11 +7,11 @@ https://github.com/akgilbert/training/blob/master/Excel%20101%20Brownbag.xlsx
 
 * The training goes over the following:
 
- - [] Intro Formulas Warm up: sum and division
- - [] Advanced Formulas, part I: if/then
- - [] Advanced Formulas, part II: vlookup
- - [] Messy List Cleaning
- - [] Pivot Tables
+   - Intro Formulas Warm up: sum and division
+   - Advanced Formulas, part I: if/then
+   - Advanced Formulas, part II: vlookup
+   - Messy List Cleaning
+   - Pivot Tables
 
 ## SQL Training
 
@@ -28,11 +28,11 @@ https://github.com/akgilbert/training/blob/master/code_final.sql
 
 * This training goes over the following:
 
- - [] Basic SQL syntax (select, from, limit)
- - [] Aggregrates (count, sum, group by, order by)
- - [] Case Statements
- - [] Joins (Left Join only)
- - [] Outer and Inner Queries
+   - Basic SQL syntax (select, from, limit)
+   - Aggregrates (count, sum, group by, order by)
+   - Case Statements
+   - Joins (Left Join only)
+   - Outer and Inner Queries
 
 ---
 
