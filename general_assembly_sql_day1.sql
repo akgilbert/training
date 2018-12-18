@@ -294,8 +294,7 @@ group by vendor, vendor_name
 order by 3 desc
 limit 10 ;
 
-Lesson 2 Independent Practice B
-
+--Lesson 2 Independent Practice B
 SELECT vendor_name
 , round(max(cast(bottle_price as dec)),2) as max_bottle_price
 , round(min(cast(bottle_price as dec)),2) as min_bottle_price
