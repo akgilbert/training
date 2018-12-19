@@ -41,6 +41,6 @@ sa.description
 from sales sa
 inner join stores st
 using (store)
-where county = 'Mason City'
+where county = 'Cerro Gordo County'
 limit 10
 ;
