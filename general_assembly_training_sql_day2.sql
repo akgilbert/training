@@ -44,3 +44,30 @@ using (store)
 where county = 'Cerro Gordo'
 limit 10
 ;
+
+/*Using Sales as our primary table, create links to all of the other tables in the 
+Iowa Liquor Sales Database. The result should be one query with several JOINs. 
+
+Before going into SQL, practice wireframing your JOINs on a piece of paper.
+
+Your query should:
+Include county from the County table, store from the Stores table, store name from the 
+Stores table, item name, case_cost from the Products table, and total from the Sales table. 
+
+Limit results to 1,000.*/
+
+select distinct b.county, d.store, d.name, c.item_description, c.case_cost, a.total
+from sales a
+inner join counties b
+on a.county = b.county
+inner join products c
+on a.item = c.item_no
+inner join stores d
+on a.store = d.store
+order by d.store
+limit 1000 
+;
+
+
+
+
