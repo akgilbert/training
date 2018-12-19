@@ -45,6 +45,9 @@ where county = 'Cerro Gordo'
 limit 10
 ;
 
+
+--Joins Independent Practice
+
 /*Using Sales as our primary table, create links to all of the other tables in the 
 Iowa Liquor Sales Database. The result should be one query with several JOINs. 
 
@@ -68,6 +71,27 @@ order by d.store
 limit 1000 
 ;
 
+/*Your query should:
+List the store number (from Sales), category_name (from Sales), 
+and two aggregated columns: average bottle_price (from Products) and average total price (from Sales). 
+Use a compounded WHERE clause to limit the calculations to the sales of tequila (category_name from Sales) from active stores in Mason City, Iowa.
+Group and sort the data by the store number.
+*/
 
+select 
+c.store
+, a.category_name
+, round(avg(cast(b.bottle_price as dec)),2) as avg_bottle_price
+, round(avg(a.total),2) as avg_total_sales
+from sales a
+inner join products b
+on a.item = b.item_no
+inner join stores c
+on a.store = c.store
+where a.category_name = 'TEQUILA' and c.store_status = 'A' and a.county = 'Cerro Gordo'
+group by c.store, a.category_name --or use 1,2
+order by c.store --or use 1
+limit 10
+;
 
 
