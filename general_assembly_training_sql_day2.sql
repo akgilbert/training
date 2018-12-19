@@ -33,3 +33,14 @@ inner join products p
 on s.item = p.item_no
 limit 1000 ;
 
+--Mason City example:
+select distinct
+sa.description
+, sa.category_name
+, st.store_address
+from sales sa
+inner join stores st
+using (store)
+where county = 'Mason City'
+limit 10
+;
