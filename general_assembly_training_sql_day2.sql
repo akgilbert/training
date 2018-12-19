@@ -117,4 +117,18 @@ left join
 on a.store = b.store
 where b.store_status = 'I'
 limit 10 ; 
+	    
+	  
+--independent practice:
+select *
+
+from sales a
+
+inner join stores b
+
+using (store) ---alternative: on a.store = b.store
+
+where b.store_status = 'A'
+
+limit 1000 ; 
 
