@@ -41,6 +41,6 @@ sa.description
 from sales sa
 inner join stores st
 using (store)
-where county = 'Cerro Gordo County'
+where county = 'Cerro Gordo'
 limit 10
 ;
