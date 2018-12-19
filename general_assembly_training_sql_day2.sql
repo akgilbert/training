@@ -94,4 +94,27 @@ order by c.store --or use 1
 limit 10
 ;
 
+	    
+--multiple joins guided practice:
+
+--“We want to see all of the information we can get on inactive stores (if there are any) for sales, as well as their addresses.”
+	    
+select *
+from
+    sales a
+right join
+    stores b
+on a.store = b.store
+where b.store_status = 'I'
+limit 10 ; 
+	
+--or:
+select *
+from
+    stores b
+left join
+    sales a
+on a.store = b.store
+where b.store_status = 'I'
+limit 10 ; 
 
