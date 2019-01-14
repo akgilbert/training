@@ -1,6 +1,6 @@
 Everyone loves a good map!  Here's a sample adjustable map made in Tableau using custom shapefiles.
 
-Map: https://public.tableau.com/profile/anna.gilbert1179#!/vizhome/AKGSelectStatesSDandHD2018Results/SelectStatesSDHD2018Results?publish=yes
+[Adjustable Map of NC and CA 2018 State Legislative Results](https://public.tableau.com/profile/anna.gilbert1179#!/vizhome/AKGSelectStatesSDandHD2018Results/SelectStatesSDHD2018Results?publish=yes)
 
 Shapefile Data Source: https://www.census.gov/geo/maps-data/data/cbf/cbf_sld.html
 
